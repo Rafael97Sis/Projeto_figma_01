@@ -2,3 +2,36 @@
     background-color: blue;
     color: aqua;
 }
+
+.imagem-home_01{
+
+width: 10px;
+left: 20px;
+
+}
+.imagem-home_02{
+
+}
+
+.logo{
+    width: 50px;
+}
+
+.grid{
+    display: grid;
+    grid-auto-columns: repeat (6 , 1fr);
+    gap: 20px;
+    padding: 0 40px;
+    grid-template-columns: "  . content  content content content";
+
+}
+
+.content{
+    grid-area: content;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.dark-header{
+    background-color: #005681;
+}
