@@ -1,35 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css" >
-    <title> Leyout Figma </title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="icon" type="image/jpg"  href="img/Icon_website.png" />
+    <title> Web Dev Simplified </title>
 </head>
+
 <body>
-    
+
     <header>
 
-        <div class="dark-header grid" >
+        <div class="dark-header grid">
             <div class="content">
                 <div class="brand-row">
-                    <img class="logo" src="img/Icon_website.png" >
-                    <h2 class="brand-row">  Web Dev Simplified  </h2>
+                    <img class="logo" alt="logo" src="img/Icon_website.png">
+                    <h2 class="brand-row"> Web Dev Simplified </h2>
+                </div>
+
+                <h2 class="title"> Cursos Com Descontos Exclusivos</h2>
+                <h3 class="sub_title">
+                    Seja um dos Primeiros a
+                    <em>Comprar o Curso de React </em>
+                    hoje !
+                </h3>
+            </div>
         </div>
+        <!-- fim 1  Post -->
+        <div class="dark-header-divider"></div>
 
-        <h1 class="title" > Cursos Com Descontos Exclusivos  </h1>
-        <h3 class="sub_title" > Seja um dos Primeiros a Comprar o Curso de </h3>
-        
-
+        <!-- Inicio 2 Post -->
+        <div class="light-header grid">
+            <div class="content">
+                <form class="email-form" action="/email" method="POST">
+                    <input type="email" name="email" placeholder="Digite seu Email">
+                    <button type="submit"> Cadastrar! </button>
+                </form>
+            </div>
+        </div>
+        <div class="light-header-divider"></div>
     </header>
+    <main>
+        <section class="grid grid-video">
 
-    <!-- <img id="imagem-home_01" translate="yes" src="img/Header Backround.png" > -->
-    <!-- <img id="imagem_home_02" translate="yes" src="img/Email Background.png" > -->
+            <video poster="img/Imagem_Play.jpg" controls>
+                <source src="video/Web Design Tutorial For Beginners.mp4" 
+                type="video/mp4">
+            </video>
 
-    <h1 class="cabecalho" >Teste 01 </h1>
+            <div class="benefits-section">
 
+                <div class="benefit">
+                    <img src="img/enviar-email.png" alt="email icon">
+                    Atualizações Email 
+                </div>
 
+                <div class="benefit">
+                    <img src="img/Icon_dolar.png" alt=" valor icon ">
+                    Desconto Especial
+                </div>
 
+                <div class="benefit">
+                    <img src="img/Icon_adicionar.png" alt="adiconar icon">
+                    Desconto Exclusivo
+                </div>
+            </div>
+        </section>
+
+        <section class=" grid grid-benefit-detail ">
+            <div class="benefit-detail">
+                <div class="benefit-detail-title">
+                    Atualizações Email
+                </div>
+                <div class="benefit-detail-text">
+                    Não é a linguagem de programação que define o programador,
+                    mas sim sua lógica
+                    Não é a linguagem de programação que define o programador,
+                    mas sim sua lógica
+                    Não é a linguagem de programação que define o programador,
+                    mas sim sua lógica
+                </div>
+            </div>
+
+            <div class="benefit-detail">
+                <div class="benefit-detail-title">
+                    Desconto Especial
+                </div>
+                <div class="benefit-detail-text">
+                    Ser desenvolvedor é uma viagem onde a próxima parada
+                    é a solução de um problema.
+                    Ser desenvolvedor é uma viagem onde a próxima parada
+                    é a solução de um problema.
+                    Faça como um programador. Quando tudo está
+                    errado e confuso, apague tudo e recomece do zero.
+                </div>
+            </div>
+
+            <div class="benefit-detail">
+                <div class="benefit-detail-title">
+                    Desconto Exclusivo
+                </div>
+                <div class="benefit-detail-text">
+                    Faça como um programador. Quando tudo está
+                    errado e confuso, apague tudo e recomece do zero.
+                    Faça como um programador. Quando tudo está
+                    errado e confuso, apague tudo e recomece do zero.
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
